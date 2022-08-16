@@ -29,6 +29,16 @@ sudo systemctl start jenkins
 
 sudo systemctl status jenkins
 
+sudo cat /var/lib/jenkins/secrets/initialpassword 
+#you will get the password 
+
+# get the public IP of EC2 Amazon instance 
+# make sure you add inboud rule from EC2 instance security tab 
+# add rule : port range 8080 ; source : 0.0.0.0/0
+# xx.xx.xx.xx :8080 
+# in your url : xx.xx.xx.8080  (public ip of the EC2 instance)
+# paste the password from line 33 (action) 
+
 Optional 
 
 opening up firewall steps
