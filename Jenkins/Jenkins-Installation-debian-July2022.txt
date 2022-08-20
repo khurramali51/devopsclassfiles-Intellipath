@@ -29,7 +29,7 @@ sudo systemctl start jenkins
 
 sudo systemctl status jenkins
 
-sudo cat /var/lib/jenkins/secrets/initialpassword 
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 #you will get the password 
 
 # get the public IP of EC2 Amazon instance 
